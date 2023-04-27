@@ -4,7 +4,7 @@ require_once('./controller/listarCategoria.php');
 include("./controller/conecta.php");
 
 $id = $_GET['id'];
-$sql =  "Select c.* from chamado c where id_chamado = $id ";
+$sql =  "Select c.* from tb_chamado c where id_chamado = $id ";
 $querychamado = mysqli_query($db,$sql);
 $chamado = mysqli_fetch_array($querychamado)
 ?>

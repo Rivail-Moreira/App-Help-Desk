@@ -6,16 +6,11 @@ $Host = 'localhost';
 // database usuario
 $dbUserName = 'root';
 // database senha
-$dbPass = '';
+$dbPass = 'admin';
 //  databasename
-$DbName = 'helpdesk';
+$DbName = 'bd_helpdesk';
 //  testa a conexão
 $db = mysqli_connect($Host, $dbUserName, $dbPass,$DbName) or die ("Could not connect");
 // //insira o nome do banco
 // mysqli_select_db($DbName,'teste');
-
-
-
-
-
  ?>
